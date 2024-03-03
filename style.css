@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header {
+    height: 70px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  h1 {
+    color: white;
+    cursor: pointer;
+    position: relative;
+    
+    
+  }
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: whitesmoke;
+    width: 200px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow */
+
+  }
+  h1:hover .dropdown {
+    display: block;
+
+  }
+li:hover{
+    color: red;
+}
+  ul {
+    list-style: none;
+  }
+
+  li{
+    font-size: 20px;
+    color: black;
+  }
+
+  
